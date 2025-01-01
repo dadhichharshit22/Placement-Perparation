@@ -2,7 +2,10 @@
 using namespace std;
 
 int reverseNumber(int number){
-    return number;
+  while(!number){
+    number 
+  }
+  return number;
 }
 
 int main(){
