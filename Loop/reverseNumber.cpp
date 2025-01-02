@@ -2,11 +2,14 @@
 using namespace std;
 
 int reverseNumber(int number){
-  while(!number){
-    number 
+  int ans = 0;
+  while(number){
+    ans = ans*10+(number%10);
+   number = number/10;
   }
-  return number;
+  return ans;
 }
+
 
 int main(){
     // Make a number variable
