@@ -2,6 +2,7 @@
 using namespace std;
 // function of reverseNumber
 int reverseNumber(int number){
+  // answer
   int ans = 0;
   while(number){
     ans = ans*10+(number%10);
