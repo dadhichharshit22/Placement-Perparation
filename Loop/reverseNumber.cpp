@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+// function of reverseNumber
 int reverseNumber(int number){
   int ans = 0;
   while(number){
